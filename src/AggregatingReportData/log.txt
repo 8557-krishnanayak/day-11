@@ -1,0 +1,8 @@
+01-01-2024,WARN,Request Fails - can be ignored
+01-01-2024,INFO,Doing Great
+01-01-2024,WARN,Ignore it
+01-01-2024,ERROR,can't execute
+01-01-2024,INFO,Can be Ignored
+01-01-2024,WARN,Can be Ignored
+01-01-2024,INFO,value of this code = 01
+01-01-2024,ERROR,can't execute

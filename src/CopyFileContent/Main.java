@@ -7,9 +7,8 @@ import java.io.FileWriter;
 public class Main {
     public static void main(String[] args) {
 
-        try (FileReader reader = new FileReader("src/CopyFileContent/input.txt");
-             FileWriter writer = new FileWriter("src/CopyFileContent/reversed.txt")) {
-
+        try (FileReader reader = new FileReader("src/CopyFileContent/source.txt");
+             FileWriter writer = new FileWriter("src/CopyFileContent/destination.txt")) {
             String s = "";
             int character;
             while ((character = reader.read()) != -1) {
